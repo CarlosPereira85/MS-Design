@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "./static/css/main.fea5b397.css",
+    "main.js": "./static/js/main.0943a00c.js",
+    "static/media/Scannen0024.png": "./static/media/Scannen0024.e21feef788a30bdae1ae.png",
+    "static/media/Scannen0011.png": "./static/media/Scannen0011.26720b9245fec3919c6b.png",
+    "static/media/Abstrakt30.png": "./static/media/Abstrakt30.f2fde5f4552efe7d822e.png",
+    "static/media/p31.png": "./static/media/p31.45ee91990acf4ec87fa3.png",
+    "static/media/Abstrakt40.png": "./static/media/Abstrakt40.8e789c0a813d82cbb87e.png",
+    "static/media/papagaiocortado.png": "./static/media/papagaiocortado.a1a7fb4237eff980e72f.png",
+    "static/media/lapis.png": "./static/media/lapis.81a2385cf9ac33de7577.png",
+    "static/media/MS background.png": "./static/media/MS background.6ca36bd3cc8ef2cdb21c.png",
+    "static/media/Abstrakt1.png": "./static/media/Abstrakt1.d5b1f1781573b263f946.png",
+    "static/media/camiseta7.png": "./static/media/camiseta7.6fc74288214481990ddc.png",
+    "static/media/camiseta2.png": "./static/media/camiseta2.27e99a902b9cd0d2cc92.png",
+    "static/media/camiseta5.png": "./static/media/camiseta5.8cd513a2a1c829159d06.png",
+    "static/media/camiseta3.png": "./static/media/camiseta3.77815c35f184baddf395.png",
+    "static/media/camiseta10.png": "./static/media/camiseta10.bdcc5ffae0fdc878440f.png",
+    "static/media/camiseta4.png": "./static/media/camiseta4.b6b142fc306ec1c502c4.png",
+    "static/media/camiseta8.png": "./static/media/camiseta8.70db60e5a146aac7e949.png",
+    "static/media/camiseta9.png": "./static/media/camiseta9.7764c6fc008713aa18cb.png",
+    "static/media/camiseta6.png": "./static/media/camiseta6.f9a06afdf4f35a468f47.png",
+    "static/media/Sign.png": "./static/media/Sign.f7aefff1a50eafbd7c13.png",
+    "index.html": "./index.html",
+    "main.fea5b397.css.map": "./static/css/main.fea5b397.css.map",
+    "main.0943a00c.js.map": "./static/js/main.0943a00c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fea5b397.css",
+    "static/js/main.0943a00c.js"
+  ]
+}
