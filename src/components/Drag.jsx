@@ -17,7 +17,7 @@ const Drag = () => {
        
      
         <Draggable
-        style={{position: "absolute", left: "335px", top: "430px", }}
+        style={{position: "absolute", left: "50px", top: "280px" ,width:"500px"}}
             
             onDrag={handleEvent}
             onStart={handleEvent}
