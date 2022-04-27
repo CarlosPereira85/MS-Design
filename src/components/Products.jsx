@@ -21,11 +21,11 @@ const Products = () => {
             <h3>{dataTshirts.name}</h3>
         </div>
     
-        <div>
+        <div className="price">
             €{dataTshirts.price}
         </div>
         <div>
-            <button onClick={() =>handleAddProduct(dataTshirts)}>Add To Cart</button>
+            <button className="addtocartbtn" onClick={() =>handleAddProduct(dataTshirts)}>Add To Cart</button>
         </div>
         </div>
 

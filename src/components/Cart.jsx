@@ -39,7 +39,7 @@ const Cart = () => {
       <div className="buttonstyle">
        
         <button style={{ color: "red"}} onClick={()=>handleRemoveProduct(item)}>-</button>
-        <button style={{ color: "green"}} onClick={()=>handleAddProduct(item)}>+</button>
+        <button style={{ color: "green", textAlign:"center"}} onClick={()=>handleAddProduct(item)}>+</button>
       </div>
       <div>{item.quantity} * €{item.price}</div>
     </div>

@@ -12,7 +12,7 @@ import colors from "../data/tshirtcolors";
 
 
 const Tsettings = () => {
-  const { handleTshirtColor, setCart,cart,color, displayItem  } = useContext(MyContext)
+  const { handleTshirtColor, setCart,cart,color, displayItem } = useContext(MyContext)
   const tshirtList = colors.map(color => <img onClick={() => handleTshirtColor(color)} src={color.url} alt="white-tshirt"  />)
 
 

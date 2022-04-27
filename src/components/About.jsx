@@ -1,6 +1,10 @@
+import Drag from "./Drag";
+
 const About = () => {
   return (
-    <h1>About</h1>
+    <div>
+  <Drag/>
+    </div>
   )
 }
 export default About

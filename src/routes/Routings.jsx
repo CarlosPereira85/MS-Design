@@ -10,6 +10,7 @@ import Login from "../components/Login";
 import Cart from '../components/Cart'
 
 
+
 const Routings = () => (
 
    <Router>

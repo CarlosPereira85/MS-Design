@@ -2,11 +2,14 @@
 import designs from "../data/designs";
 import { useContext } from "react";
 import  MyContext  from "../context/MyContext";
+import { Draggable } from "drag-react";
+import Drag from "./Drag";
+
 
 
 const Designs = () => {
  
-  const {setDisplayItem, displayItem} = useContext(MyContext);
+  const {setDisplayItem, displayItem, size, setSize} = useContext(MyContext);
 
   const designLists = designs.map((design) => (<img
     key={design.id}
@@ -24,9 +27,9 @@ const Designs = () => {
 
   return (
     <>
-      
+  
    
-      <div className="design-container">
+      <div className="design-container" >
 
 
         {designLists}
@@ -34,12 +37,21 @@ const Designs = () => {
        
         </div>
      
-       <div className="container">
-         
-          <img className="imgc" src={displayItem} alt="" style={{ width: "250px", height: "300px" }}  />
-       
-      </div>
+      <input
       
+          id="ranger"
+          type="range"
+          min="10"
+          max="100"
+          value={size}
+          onChange={e => {
+            const { value } = e.target;
+            setSize(parseInt(value, 10));
+            console.log(e.target.value);
+          }}
+          
+        />
+      <Drag/>
     </> 
   
   )}

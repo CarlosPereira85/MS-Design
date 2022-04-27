@@ -7,19 +7,21 @@ import img from '../data/img/Abstrakt1.png'
 import { useState } from "react";
 
 
+
 const MyProvider = ({ children }) => {
 
 
-
+  const [size, setSize] = useState({});
   const [color, setcolor] = useState({id:1, url: "https://res.cloudinary.com/dkkgmzpqd/image/upload/v1545217305/T-shirt%20Images/white.png", name:"white"});
   const [picture] = useState(data);
-  
+  const [image, takeScreenshot] = useState()
   const [cart, setCart] = useState([]);
   const { products } = dataTshirts;
   // const [cartItems, setCartItems] = useState([]);
-  const [displayItem, setDisplayItem] = useState(img);
+  const [displayItem, setDisplayItem] = useState(img );
   
 console.log(cart);
+
   // const handleImg2 = (e) => {
   //   setShow(false);
   // };
@@ -62,14 +64,16 @@ console.log(cart);
   return (
     <MyContext.Provider
       value={{
-        
+        image,
+        takeScreenshot,
         dataTshirts,
         color,
         handleTshirtColor,
         setCart,
         cart,
         picture,
-       
+       size,
+        setSize,
        tshirtcolors,
         handleAddProduct,
         handleRemoveProduct,
