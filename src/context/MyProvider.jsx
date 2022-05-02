@@ -3,7 +3,7 @@ import data from "../data/data";
 import dataTshirts from "../data/dataTshirts";
 import designs from "../data/designs";
 import tshirtcolors from "../data/tshirtcolors";
-import img from '../data/img/Abstrakt1.png'
+import img from "../data/img/img1.png"
 import { useState } from "react";
 
 
@@ -18,7 +18,7 @@ const MyProvider = ({ children }) => {
   const [cart, setCart] = useState([]);
   const { products } = dataTshirts;
   // const [cartItems, setCartItems] = useState([]);
-  const [displayItem, setDisplayItem] = useState(img );
+  const [displayItem, setDisplayItem] = useState(img);
   
 console.log(cart);
 

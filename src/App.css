@@ -26,7 +26,7 @@ ul {
     gap: 50px;
     margin-top: 25%;
     text-transform: capitalize;
-    z-index: 3 !important;
+  
     
    
     
@@ -40,7 +40,7 @@ li {
     list-style: none;
     font-size: large;
     
-   z-index: 3 !important;
+  
     
     
     
@@ -55,7 +55,7 @@ a {
 }
  .imgc {
     transform: translateX(-50%) translateY(-50%);
-    margin-left: 290px;
+    margin-left: 285px;
     margin-top: 170px;
    max-height: 400px;
     max-width: 400px;
@@ -98,7 +98,7 @@ a {
         
 
 .design-container {
-    width: 50%;
+    width: 80%;
     
 }
 .line {
