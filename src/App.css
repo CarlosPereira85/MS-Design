@@ -1,5 +1,5 @@
 .body {
-    width: 100%;
+  overflow: hidden;
 }
 .tshirt-color {
     display: flex-inline;
@@ -8,7 +8,10 @@
   
   
 }
-
+.drag-box {
+    height: 400px;
+    overflow: auto;
+}
 .tshirt-color img {
     width: 100px ;
    
@@ -24,7 +27,8 @@
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
-        align-items: center;
+       
+        
 
     }
 }
@@ -32,19 +36,39 @@
     .media {
       display: flex;
       flex-direction: column ;
+      width: 700px;
+      align-items: center;
        
 
     }
 }
 @media screen and (max-width: 600px) {
+    .footer {
+      width: 800px;}}
+@media screen and (max-width: 600px) {
+    .header {
+      width: 800px;}}
+@media screen and (max-width: 600px) {
+    .tsingle {
+      margin: auto;}}
+@media screen and (max-width: 600px) {
+    .body {
+     overflow:auto;
+    }}
+
+@media screen and (max-width: 600px) {
     .design-container {
        display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
         width: 300px;
+        align-items: center;
+        overflow: scroll;
+
+               
+       
+        
+        
       
          
     
@@ -129,13 +153,13 @@ a {
     border-bottom: black solid;
     display: flex;
    
-    z-index: 3 !important;
+    
    
 }
 .footer {
     background-color: black;
    
-    width: 100%;
+   
     text-align: center;
 }
 /* .container {
