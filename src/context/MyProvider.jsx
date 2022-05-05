@@ -19,12 +19,17 @@ const MyProvider = ({ children }) => {
   const { products } = dataTshirts;
   // const [cartItems, setCartItems] = useState([]);
   const [displayItem, setDisplayItem] = useState(img);
-  
+  // const [imgDesign, setImgDesign] = useState();
+  // const [error, setError] = useState(false);
+  // const [loading, setLoading] = useState(false);
+
+
 console.log(cart);
 
   // const handleImg2 = (e) => {
   //   setShow(false);
   // };
+  
 
   const handleTshirtColor = (color) => {
     
@@ -80,7 +85,8 @@ console.log(cart);
         handleCartClear,
         designs,
         setDisplayItem,
-        displayItem
+        displayItem,
+        // setImgDesign,setLoading,setError,img
       }}
     >
       {children}

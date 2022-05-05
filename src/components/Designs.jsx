@@ -4,14 +4,15 @@ import { useContext } from "react";
 import  MyContext  from "../context/MyContext";
 import { Draggable } from "drag-react";
 import Drag from "./Drag";
-
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-slideshow-image/dist/styles.css'
+import Slide from 'react-slideshow-image';
 
 const Designs = () => {
  
   const {setDisplayItem, displayItem, size, setSize} = useContext(MyContext);
 
-  const designLists = designs.map((design) => (<img
+  const designLists =  designs.map((design) => (<img
     key={design.id}
           className="static"
           onClick={() =>setDisplayItem(design.image)}

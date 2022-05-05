@@ -21,7 +21,7 @@ const Tsettings = () => {
     
     <div className="big-cont">
     <Tdisplay />
-    <div>
+    <div className="media">
       
       <h3 className="text-center"> Settings</h3>
     <h4>Change T-shirt Color</h4>

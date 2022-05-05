@@ -1,5 +1,6 @@
 import { useContext } from "react"
 import MyContext from "../context/MyContext"
+// import Screenshot from "./Screenshot";
 
 
 const Tdisplay = () => {
@@ -10,10 +11,12 @@ const Tdisplay = () => {
        
         <img src={color.url} alt="img-tshirt" />
        <div>
+         {/* <Screenshot/> */}
        
         <button>See More Designs</button>
         
         </div>
+
     </div>
   )
 }

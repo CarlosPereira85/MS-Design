@@ -5,7 +5,7 @@ import img4 from './img/img4.png';
 import img5 from './img/img5.png';
 import img6 from './img/img6.png';
 import img7 from './img/img7.png';
-// import img8 from './img/img8.png';
+import img8 from './img/img8.png';
 import img9 from './img/img9.png';
 import img10 from './img/img10.png';
 import img11 from './img/img11.png';
@@ -18,7 +18,7 @@ import img17 from './img/img17.png';
 import img18 from './img/img18.png';
 // import img19 from './img/img19.png';
 import img20 from './img/img20.png';
-// import img21 from './img/img21.png';
+import img21 from './img/img21.png';
 import img22 from './img/img22.png';
 import img23 from './img/img23.png';
 import img24 from './img/img24.png';
@@ -32,13 +32,13 @@ import img31 from './img/img31.png';
 import img32 from './img/img32.png';
 import img33 from './img/img33.png';
 import img34 from './img/img34.png';
-// import img35 from './img/img35.png';
+import img35 from './img/img35.png';
 import img36 from './img/img36.png';
 import img37 from './img/img37.png';
 import img38 from './img/img38.png';
 import img39 from './img/img39.png';
 import img40 from './img/img40.png';
-// import img41 from './img/img41.png';
+import img41 from './img/img41.png';
 import img42 from './img/img42.png';
 import img43 from './img/img43.png';
 
@@ -86,12 +86,12 @@ const designs = [
         image: img7,
         price: 30
     },
-    // {
-    //     id: 8,
-    //     name: 'T-shign',
-    //     image: img8,
-    //     price: 30
-    // },
+    {
+        id: 8,
+        name: 'T-shign',
+        image: img8,
+        price: 30
+    },
     {
         id: 9,
         name: 'T-shign',
@@ -164,12 +164,12 @@ const designs = [
         image: img20,
         price: 30
     },
-    // {
-    //     id: 21,
-    //     name: 'T-shign',
-    //     image: img21,
-    //     price: 30
-    // },
+    {
+        id: 21,
+        name: 'T-shign',
+        image: img21,
+        price: 30
+    },
     {
         id: 22,
         name: 'T-shign',
@@ -248,12 +248,12 @@ const designs = [
         image: img34,
         price: 30
     },
-    // {
-    //     id: 35,
-    //     name: 'T-shign',
-    //     image: img35,
-    //     price: 30
-    // },
+    {
+        id: 35,
+        name: 'T-shign',
+        image: img35,
+        price: 30
+    },
     {
         id: 36,
         name: 'T-shign',
@@ -284,12 +284,12 @@ const designs = [
         image: img40,
         price: 30
     },
-    // {
-    //     id: 41,
-    //     name: 'T-shign',
-    //     image: img41,
-    //     price: 30
-    // },
+    {
+        id: 41,
+        name: 'T-shign',
+        image: img41,
+        price: 30
+    },
     {
         id: 42,
         name: 'T-shign',
