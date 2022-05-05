@@ -53,7 +53,10 @@
       margin: auto;}}
 @media screen and (max-width: 600px) {
     .body {
-     overflow:auto;
+     box-sizing: border-box;
+     overflow: hidden;
+     margin: 0;
+     padding: 0;
     }}
 
 @media screen and (max-width: 600px) {
