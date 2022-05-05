@@ -19,7 +19,7 @@ const Designs = () => {
           name={design.name}
           src={design.image}
           alt=""
-          style={{ width: "100px", height: "100px" }}
+          style={{ width: "100px", height: "100px" ,cursor: "pointer" , margin:"1px"}}
 
         />))
        
@@ -28,7 +28,22 @@ const Designs = () => {
 
   return (
     <>
-  
+    <div className="slider-container">
+     <input
+     className="slider"
+      id="ranger"
+      type="range"
+      min="10"
+      max="100"
+      value={size}
+      onChange={e => {
+        const { value } = e.target;
+        setSize(parseInt(value, 10));
+        console.log(e.target.value);
+      }}
+      
+    />
+   </div>
    
       <div className="design-container" >
 
@@ -37,21 +52,9 @@ const Designs = () => {
        
        
         </div>
+        
      
-      <input
-      
-          id="ranger"
-          type="range"
-          min="10"
-          max="100"
-          value={size}
-          onChange={e => {
-            const { value } = e.target;
-            setSize(parseInt(value, 10));
-            console.log(e.target.value);
-          }}
-          
-        />
+   
       <Drag/>
     </> 
   

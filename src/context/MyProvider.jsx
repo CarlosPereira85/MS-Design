@@ -3,7 +3,7 @@ import data from "../data/data";
 import dataTshirts from "../data/dataTshirts";
 import designs from "../data/designs";
 import tshirtcolors from "../data/tshirtcolors";
-import img from "../data/img/img1.png"
+import img from "../data/img/img21.png";
 import { useState } from "react";
 
 
@@ -12,7 +12,7 @@ const MyProvider = ({ children }) => {
 
 
   const [size, setSize] = useState({});
-  const [color, setcolor] = useState({id:1, url: "https://res.cloudinary.com/dkkgmzpqd/image/upload/v1545217305/T-shirt%20Images/white.png", name:"white"});
+  const [color, setcolor] = useState({id:1, url: "https://res.cloudinary.com/dkkgmzpqd/image/upload/v1545217305/T-shirt%20Images/grey.png", name:"grey"});
   const [picture] = useState(data);
   const [image, takeScreenshot] = useState()
   const [cart, setCart] = useState([]);
