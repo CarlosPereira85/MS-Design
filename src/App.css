@@ -227,7 +227,7 @@ a {
     transform: translateX(-50%) translateY(-40%);
     margin-left: 285px;
     margin-top: 170px;
-   max-height: 450px;
+   max-height: 430px;
   
     /* width: fit-content;
     height: fit-content; */
@@ -258,6 +258,10 @@ a {
    
    
     text-align: center;
+    position:relative;
+left:0;
+bottom:0;
+right:0;
 }
 /* .container {
 
@@ -320,6 +324,7 @@ button:hover {background-color: #e7e7e7;}
         overflow: hidden;
         margin-left: 25%;
         margin-top: 10%;
+        
         
     }
     .media {
