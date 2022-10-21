@@ -14,7 +14,7 @@ import Cart from '../components/Cart'
 const Routings = () => (
 
    <Router>
-<main>
+
 <Header/>
        <Routes>
       
@@ -29,7 +29,7 @@ const Routings = () => (
        </Routes>
 
 <Footer/>
-</main>
+
    </Router>
     )
 

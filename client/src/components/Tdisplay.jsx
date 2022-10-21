@@ -9,7 +9,7 @@ const Tdisplay = () => {
   return (
     <div className="tsingle">
        
-        <img src={color.url} alt="img-tshirt" width= "500%" />
+        <img src={color.url} alt="img-tshirt" width= "650%"  />
        <div>
          {/* <Screenshot/> */}
        
