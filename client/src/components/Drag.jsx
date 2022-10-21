@@ -17,7 +17,7 @@ const Drag = () => {
        
      
         <Draggable
-        style={{position: "absolute", left: "0", top: "430px" ,width:"700px", height:"600px" ,overflow: "hidden"
+        style={{position: "absolute", left: "90px", top: "330px" ,width:"630px", height:"580px" ,overflow: "hidden"
       ,cursor: "grabbing"
       }}
             
@@ -28,9 +28,9 @@ const Drag = () => {
             onMouseUp={handleEvent}
             onTouchStart={handleEvent}
             onTouchEnd={handleEvent}>
-            <div className="drag-box">
-            <img className="imgc" src={displayItem} alt="" style={{ width: `${size}%`, height: `${size}%` }}  />
-            </div>
+            
+            <img className="imgc" src={displayItem} alt="" style={{ width: `${size}%`, height: `${size}%`,  }}  />
+           
           </Draggable>
    
       
